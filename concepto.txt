@@ -1,0 +1,14 @@
+un prototipo es una plantilla de la cual podemos crear objetos y heredar las propiedades y métodos entre ellos.
+Todos los objetos creados a partir de un prototipo, puede heredar todas las caracteristicas de dicho prototipo, a esto le llamamos cadena de prototipos, esto exolica por ue diferentes objetos pueden tener diferente caracteriricas y funciones definidos en otro prototipo.
+
+Todo constructor es un prototipo de Object()
+
+en Object() -- los métdos heredados incian con Object.prototype.
+
+el prototype actuan como una especie de cajon en el cual se almacena todas las propiedades heredadas de esas instancias.
+
+Modificar un objeto no es modificar prototipos, aunque el objeto sea un prototipo de un objeto.
+
+Objeto.prototype.<nombre de la propiedad> ---- Asi agragamos una nueva propiedad a un prototipo para que este disponible a todos los objetos del prototipo
+Es muy adecuado para propiedades constantes.
+Funciona mejor y más comun declarar las propiedades dentro de la funcióin y los metodos dentro del prototipo.
